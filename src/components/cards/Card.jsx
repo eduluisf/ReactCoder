@@ -60,7 +60,7 @@ export default function RecipeReviewCard() {
             <MoreVertIcon />
           </IconButton>
         }
-        title="Judith al toto"
+        title="Nombre prueba"
         subheader="junio 13, 1998"
       />
       <CardMedia
@@ -70,7 +70,7 @@ export default function RecipeReviewCard() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          Hola judith
+          Comida nombre
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
