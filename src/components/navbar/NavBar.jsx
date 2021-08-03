@@ -15,7 +15,7 @@ import MailIcon from "@material-ui/icons/Mail";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import MoreIcon from "@material-ui/icons/MoreVert";
 import { Button } from "@material-ui/core";
-import ShoppingCartIcon from "@material-ui/icons/ShoppingCart";
+import CartIcon from "../../components/cartwidget/CartWidget.jsx";
 
 const useStyles = makeStyles((theme) => ({
   grow: {
@@ -203,18 +203,18 @@ export default function PrimarySearchAppBar() {
           <Button variant="contained" color="primary">
             Primary
           </Button>
-          <Button variant="contained" color="primary">
-            <ShoppingCartIcon />
-          </Button>
+
+          <CartIcon />
+
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
             <IconButton aria-label="show 4 new mails" color="inherit">
-              <Badge badgeContent={4} color="secondary">
+              <Badge badgeContent={1} color="secondary">
                 <MailIcon />
               </Badge>
             </IconButton>
             <IconButton aria-label="show 17 new notifications" color="inherit">
-              <Badge badgeContent={17} color="secondary">
+              <Badge badgeContent={1} color="secondary">
                 <NotificationsIcon />
               </Badge>
             </IconButton>
