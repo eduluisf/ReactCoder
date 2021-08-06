@@ -12,12 +12,10 @@ export default function ItemCount() {
 
       <Button
         text="Sumar"
-        click={(() => setCount(count + 1), setStock(stock - 1))}
+        click={() => setCount(count + 1)}
+        // click={() => setStock(stock - 1)}
       ></Button>
-      <Button
-        text="restar"
-        click={(() => setCount(count - 1), setStock(stock + 1))}
-      ></Button>
+      <Button text="restar" click={() => setCount(count - 1)}></Button>
     </>
   );
 }
